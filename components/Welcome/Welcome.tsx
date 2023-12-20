@@ -13,6 +13,10 @@ export function Welcome() {
       <Text
         inherit
         className={classes.description}
+        style={{
+          fontSize: '1.5rem',
+        }}
+        variant="gradient"
         gradient={{ from: 'pink', to: 'yellow' }}
         ta="center"
         size="lg"
