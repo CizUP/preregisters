@@ -10,7 +10,15 @@ export function Welcome() {
           cizup.dev
         </Text>
       </Title>
-      
+      <Text
+        inherit
+        className={classes.description}
+        gradient={{ from: 'pink', to: 'yellow' }}
+        ta="center"
+        size="lg"
+      >
+        We have completed our registrations. Thanks for your interest!
+      </Text>
     </>
   );
 }
